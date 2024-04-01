@@ -2,6 +2,7 @@
 import pandas as pd
 
 
-roster = ['Lebo', 'Davis', 'Trimble']
-data = pd.DataFrame(roster)
+last_names = ['Lebo', 'Davis', 'Trimble']
+
+data = pd.DataFrame(last_names, columns=['Last Name'])
 print(data)
